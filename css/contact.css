@@ -1,0 +1,30 @@
+body{
+    background-color: lightpink;
+    padding: auto;
+    margin: auto;
+}
+
+header{
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+}
+
+.grilla{
+    font-size: large;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: auto;
+    background-color: lightblue;
+    border: solid black;
+}
+
+h2{
+    border: dotted black;
+}

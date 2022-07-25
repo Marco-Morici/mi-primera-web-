@@ -1,0 +1,71 @@
+body{
+    background-color: lightpink;
+    padding: auto;
+    margin: auto;
+}
+
+header{
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    width: 80%;
+    
+    padding-left: 15%;
+    margin: auto;
+    row-gap: 12%;
+}
+
+.guitar{
+    background-color: aquamarine;
+    width: 26.3vw;
+    height: 51vh;
+     border: solid black;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-left: 5%;
+}
+.video {
+    display: flex;
+    justify-self: center;
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+}
+.Voz{
+    background-color: aquamarine;
+    width: 26.3vw;
+    height: 51vh;
+     border: solid black;
+}
+.Bajo{
+    background-color: aquamarine;
+    width: 26.53vw;
+    height: 51vh;
+     border: solid black;
+}
+.Bateria{
+    background-color: aquamarine;
+    width: 26.3vw;
+    height: 51vh;
+     border: solid black;
+    }
+    h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: underline;
+        display: flex;
+        justify-content: center;
+    }
+    p{
+        text-decoration: underline;
+    }

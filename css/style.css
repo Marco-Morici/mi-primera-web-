@@ -1,0 +1,81 @@
+body{
+    background-color: lightpink;
+    padding: auto;
+    margin: auto;
+}
+
+header{
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+}
+
+.guitarra{
+    display: flex;
+    border: solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/guitarra.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    transition: 250ms ease-in-out; 
+}
+.guitarra:hover{
+    transform: scale(1.75);
+}
+.voz{
+    border: solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/micofrono.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    transition: 250ms ease-in-out;
+}
+.voz:hover{
+    transform: scale(1.75);
+}
+
+.bajo{
+    border: solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/bass.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    transition:250ms ease-in-out;
+}
+.bajo:hover{
+    transform: scale(1.75);
+}
+
+.bateria{
+    border: solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/drum.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    transition: 250ms ease-in-out
+}
+.bateria:hover{
+    transform: scale(1.75);
+}
